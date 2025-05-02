@@ -1,29 +1,13 @@
-# .
+# learn-github-actions
 
-This template should help get you started developing with Vue 3 in Vite.
+Github Actionsを用いたGithub Pagesへの自動デプロイ
 
-## Recommended IDE Setup
+## build-and-deploy.yml
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Vueプロジェクトにおいて、mainブランチへのソースコードのpushをトリガーにして、ビルド・デプロイ自動化を実現している。
 
-## Customize configuration
+使用したアクションは、actions/upload-pages-artifact@v3とactions/deploy-pages@v4である。
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 公開URL
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+https://tanaka-fuji.github.io/learn-github-actions/
