@@ -1,9 +1,9 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
 </script>
 
 <template>
   <main>
-    <TheWelcome />
+    <h1>サンプルページ</h1>
+    Github Actionsを用いてGithub Pagesにデプロイしました。
   </main>
 </template>
